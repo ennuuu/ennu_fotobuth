@@ -10,7 +10,6 @@ function setup() {
   // Set the desktop background to a retro Windows XP wallpaper (replace with your own if you want)
   document.body.style.margin = "0";
   document.body.style.padding = "0";
-  document.body.style.background = "url('https://i.imgur.com/OCqD0CL.jpg') no-repeat center center fixed";
   document.body.style.backgroundSize = "cover";
   document.body.style.fontFamily = "'MS Sans Serif', sans-serif";
 
@@ -24,7 +23,7 @@ function setup() {
   let cameraLabel = createDiv("EnnuDigiCam");
   cameraLabel.style("position", "absolute");
   cameraLabel.style("top", "120px");
-  cameraLabel.style("left", (50 + 83 / 2) + "px");
+  cameraLabel.style("left", 50 + 83 / 2 + "px");
   cameraLabel.style("transform", "translateX(-50%)");
   cameraLabel.style("font-family", "'MS Sans Serif', sans-serif");
   cameraLabel.style("font-size", "14px");
@@ -46,7 +45,7 @@ function setup() {
   cameraFrame.style("display", "none");
   cameraFrame.style("width", "700px");
   cameraFrame.style("height", "550px");
-  cameraFrame.style("background", "#d4d0c8");       // Win95 gray
+  cameraFrame.style("background", "#d4d0c8"); // Win95 gray
   cameraFrame.style("border", "3px solid black");
   cameraFrame.style("padding", "10px");
   cameraFrame.style("position", "absolute");
@@ -106,7 +105,7 @@ function setup() {
   snapshotPanel.style("display", "none");
   snapshotPanel.style("width", "400px");
   snapshotPanel.style("height", "500px");
-  snapshotPanel.style("background", "#d4d0c8");    // Win95 gray
+  snapshotPanel.style("background", "#d4d0c8"); // Win95 gray
   snapshotPanel.style("border", "3px solid black");
   snapshotPanel.style("padding", "10px");
   snapshotPanel.style("position", "absolute");
@@ -165,7 +164,8 @@ function setup() {
 }
 
 function keyPressed() {
-  if (keyCode === 32) { // Space key
+  if (keyCode === 32) {
+    // Space key
     takeSnapshot();
   }
 }

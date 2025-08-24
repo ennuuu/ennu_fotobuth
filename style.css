@@ -1,70 +1,70 @@
-/* Camera Frame Styling /
+/* Camera Frame Styling */
 #camera-frame {
-width: 660px;
-height: 520px;
-background: rgba(200, 225, 255, 0.9); / Soft glassy blue /
-border: 3px solid #89c5e8; / Soft pastel blue border /
-position: absolute;
-box-shadow: 4px 4px 10px rgba(0, 80, 180, 0.3);
-user-select: none;
-border-radius: 10px; / Slightly rounded corners */
+  width: 660px;
+  height: 520px;
+  background: rgba(200, 225, 255, 0.9); /* Soft glassy blue */
+  border: 3px solid #89c5e8; /* Soft pastel blue border */
+  position: absolute;
+  box-shadow: 4px 4px 10px rgba(0, 80, 180, 0.3);
+  user-select: none;
+  border-radius: 10px;
 }
 
 /* Title Bar (Windows XP style but softer) */
 #title-bar {
-background: linear-gradient(to right, #6ab5ff, #0045a5);
-color: white;
-padding: 6px;
-font-size: 14px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-cursor: grab;
-border-radius: 7px 7px 0 0;
-box-shadow: inset 0px -2px 4px rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right, #6ab5ff, #0045a5);
+  color: white;
+  padding: 6px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: grab;
+  border-radius: 7px 7px 0 0;
+  box-shadow: inset 0px -2px 4px rgba(255, 255, 255, 0.3);
 }
 
-/* Close Button /
+/* Close Button */
 #title-bar button {
-background: #ff4d4d; / Softer red */
-color: white;
-border: none;
-padding: 2px 8px;
-cursor: pointer;
-font-weight: bold;
-border-radius: 4px;
-transition: background 0.2s ease-in-out;
+  background: #ff4d4d; /* Softer red */
+  color: white;
+  border: none;
+  padding: 2px 8px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.2s ease-in-out;
 }
 
 #title-bar button:hover {
-background: #ff0000;
+  background: #ff0000;
 }
 
 /* Video Container */
 #video-container {
-padding: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-background: rgba(255, 255, 255, 0.3);
-border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
 }
 
 /* Make buttons more Y2K-styled */
 button {
-background: linear-gradient(to bottom, #a3dbff, #6ab5ff);
-border: 2px solid #0045a5;
-color: #003366;
-font-weight: bold;
-padding: 8px 12px;
-font-size: 14px;
-cursor: pointer;
-border-radius: 6px;
-text-shadow: 1px 1px 0px white;
-transition: all 0.2s ease-in-out;
+  background: linear-gradient(to bottom, #a3dbff, #6ab5ff);
+  border: 2px solid #0045a5;
+  color: #003366;
+  font-weight: bold;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  text-shadow: 1px 1px 0px white;
+  transition: all 0.2s ease-in-out;
 }
 
 button:hover {
-background: linear-gradient(to bottom, #6ab5ff, #0045a5);
-color: white;
+  background: linear-gradient(to bottom, #6ab5ff, #0045a5);
+  color: white;
 }
